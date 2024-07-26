@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireshark Network Traffic Analyzer</title>
+    <link rel="stylesheet" href="wireshark.css">
+</head>
+<body>
+    <header>
+        <h1>Wireshark Network Traffic Analyzer</h1>
+        <nav>
+            <ul>
+                <li><a href="#start">Start Capture</a></li>
+                <li><a href="#stop">Stop Capture</a></li>
+                <li><a href="#view">View Traffic</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="start">
+        <h2>Start Packet Capture</h2>
+        <button id="startCaptureBtn">Start Capture</button>
+    </section>
+
+    <section id="stop">
+        <h2>Stop Packet Capture</h2>
+        <button id="stopCaptureBtn">Stop Capture</button>
+    </section>
+
+    <section id="view">
+        <h2>Network Traffic</h2>
+        <div id="trafficData"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wireshark Network Traffic Analyzer</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
